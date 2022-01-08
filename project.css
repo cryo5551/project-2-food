@@ -1,0 +1,204 @@
+*{  padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Ubuntu+Mono&display=swap'); */
+body{
+    background-color: black;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'Baloo Bhaijaan 2', cursive; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: sans-serif;
+}   
+
+nav::before{
+    background: url('img/bgtable.jpg') no-repeat center center/cover;
+    content:"";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#nav{
+    position:sticky;
+    top: 0;
+}
+.container1{
+    background-color: rgb(56, 55, 55);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* opacity: 0.8;
+    z-index: 1; */
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    padding: 3px 0px 0px 5px;
+}
+
+
+.menu ul{
+    display:flex;
+    list-style: none;
+    padding-inline-start: 17px;
+    flex-wrap: wrap;
+}
+
+.nevbar{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 0px 5px;
+    padding: 3px 15px;
+    border-radius: 10px;
+    transition: all;
+    transition-duration:0.2s;
+}
+
+.nevbar:hover{
+    color: black;
+    background-color:white;
+
+}
+.menu ul li a:active{
+    background-color:rgb(196, 191, 191);
+    padding: 4px 16px;
+}
+
+.section1{
+    display: flex;
+    width: 100vw;
+    height: 40vh;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid white;
+
+}
+
+.section1 h1{
+    margin: 10px
+}
+.section1 p{
+    padding: 2px;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 5px;
+    margin-top: 15px;
+    width: 125px;
+    /* font-family: 'Baloo Bhaijaan 2', cursive; */
+    /* font-weight: bold; */
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.btn:hover{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    border: px solid white; 
+    cursor: pointer;
+}
+
+.btn:active{
+    background-color: rgb(173, 172, 172);
+    color: black;
+}
+
+.section2{
+    display: flex;
+    width: 100%;
+    margin: 20px 0px;
+    justify-content:space-around;
+    /* z-index: -1; */
+}
+
+.section2 div img{
+    width: 150px;
+    height: 150px;
+    padding:10px;
+    display: block;
+    margin:auto;
+    /* opacity: 2; */
+}
+
+.section2 div{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 15%;
+    /* opacity: 0.6; */
+    color: white;
+    text-align: center;
+    /* text-align:justify; */
+    padding: 12px;
+}
+
+.section3{
+    display: flex;
+    width: 100%;
+    margin: 20px 0px;
+    justify-content:space-around;
+    /* z-index: -1; */
+}
+
+.section3 div img{
+    width: 150px;
+    height: 150px;
+    padding:10px;
+    display: block;
+    margin:auto;
+    /* opacity: 2; */
+}
+
+.section3 div{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 15%;
+    /* opacity: 0.6; */
+    color: white;
+    text-align: center;
+    /* text-align:justify; */
+    padding: 12px;
+}
+
+
+.gg{
+    display: flex;
+    width: 100%;
+    margin: 20px 0px;
+    background-color:black;
+    justify-content:space-around;
+}
+
+.gg img{
+    width: 100px;
+    height: 100px;
+    padding:10px;
+    display: block;
+    margin:auto;
+    /* opacity: 1; */
+}
+
+#clints .gg{
+  
+    border: 2px solid white;
+    border-radius: 10px;
+
+    /* text-align:justify; */
+    padding: 12px;
+}
